@@ -8,7 +8,7 @@
 <meta name="author" content="daniel">
 
     <link rel="shortcut icon" href="/images/favicon.png" type="image/x-icon" />
-    <title>Chapter 2. - FAQ Site</title>
+    <title>Chapter 1. - FAQ Site</title>
 
     
     <link href="/css/nucleus.css?1606730478" rel="stylesheet">
@@ -33,7 +33,7 @@
     </style>
     
   </head>
-  <body class="" data-url="/oa/">
+  <body class="" data-url="/attendance/">
     <nav id="sidebar" class="">
 
 
@@ -95,8 +95,8 @@
   
     
     <li data-nav-id="/attendance/" title="Chapter 1." class="dd-item
-        
-        
+        parent
+        active
         
         ">
       <a href="/attendance/">
@@ -192,8 +192,8 @@
   
     
     <li data-nav-id="/oa/" title="Chapter 2." class="dd-item
-        parent
-        active
+        
+        
         
         ">
       <a href="/oa/">
@@ -246,7 +246,7 @@
                   
                   
                   <div id="top-github-link">
-                    <a class="github-link" title='Edit this page' href="http://lansion.yunkecang.comoa/_index.md" target="blank">
+                    <a class="github-link" title='Edit this page' href="http://lansion.yunkecang.comattendance/_index.md" target="blank">
                       <i class="fas fa-code-branch"></i>
                       <span id="top-github-link-text">Edit this page</span>
                     </a>
@@ -271,7 +271,7 @@
             
           
           
-            <a href='/'>Root</a> > Chapter 2.
+            <a href='/'>Root</a> > Chapter 1.
           
         
           
@@ -296,7 +296,78 @@
 
 
 
-	<h3 id="chapter-2">Chapter 2</h3>
+	<h3 id="chapter-1考勤系统">Chapter 1.考勤系统</h3>
+<hr>
+<h4 id="登陆地址">登陆地址</h4>
+<h5 id="http19216812228088http19216812228088"><a href="http://192.168.1.222:8088">http://192.168.1.222:8088</a></h5>
+<hr>
+<h4 id="业务">业务</h4>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">基础信息</th>
+<th style="text-align:center">功能</th>
+<th style="text-align:center">报表</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center"><a href="http://localhost:1313/attendance/1.0/">部门</a></td>
+<td style="text-align:center">入职</td>
+<td style="text-align:center">统计报表</td>
+</tr>
+<tr>
+<td style="text-align:center">人员信息</td>
+<td style="text-align:center">离职</td>
+<td style="text-align:center">每日出勤</td>
+</tr>
+<tr>
+<td style="text-align:center">设备</td>
+<td style="text-align:center">排班</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h4 id="流程">流程</h4>
+<pre><code class="language-mermaid" data-lang="mermaid">graph LR
+入职--&gt;档案
+档案--&gt;指纹录入
+指纹录入--&gt;工号录入
+工号录入--&gt;导出档案
+导出档案--&gt;开通门禁
+</code></pre><p>&amp;</p>
+
+<div class="mermaid" align="center">
+sequenceDiagram
+    participant 人事部
+    participant 信息部
+    人事部->>新员工: 指纹录入
+    新员工->>人事部: Done
+
+    人事部->>信息部: 开通门禁
+    Note right of 信息部: 您的门禁已开通 <br/>有问题随时找我...
+    信息部->>新员工: Done
+    信息部-->>人事部: Done
+    loop Response
+        人事部-->新员工: 持续优化
+    end
+</div>
+
+<hr>
+<h4 id="等待完善">等待完善</h4>
+<ul>
+<li>
+<h6 id="接入人事流程数据">接入人事流程数据</h6>
+</li>
+</ul>
+<hr>
+<blockquote>
+<p>ZKTime时间精细化管理平台以时间管理作为专业管理方向，环绕六大维度，结合互联网应用三大核心要素：时间、计算、存储，将生物识别技术融入软硬件，为企业带来高安全、实人化、高效率、智慧规范的全新的组织运营管控体验,三者结合提高平台的企业管理实力,实现企业/单位的精细化运营管理。</p>
+</blockquote>
+<blockquote>
+<p>ZKteco FAQ <a href="https://www.zkteco.com/cn/zk_faq.html">https://www.zkteco.com/cn/zk_faq.html</a></p>
+</blockquote>
 
 
 
@@ -339,8 +410,6 @@
             
                 
                     
-                        
-                        
                     
                 
                 
@@ -354,6 +423,9 @@
             
             
                 
+                    
+                        
+                        
                     
                 
                 
@@ -405,7 +477,6 @@
             
             
                 
-                    
                     
                 
                 

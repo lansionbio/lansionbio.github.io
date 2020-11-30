@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Root on FAQ Site</title>
-    <link>http://localhost:1313/</link>
-    <description>Recent content in Root on FAQ Site</description>
+    <title>Chapter 1. on FAQ Site</title>
+    <link>http://localhost:1313/attendance/</link>
+    <description>Recent content in Chapter 1. on FAQ Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 17 Nov 2020 15:24:30 +0800</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 17 Nov 2020 15:24:30 +0800</lastBuildDate><atom:link href="http://localhost:1313/attendance/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>界面介绍</title>
       <link>http://localhost:1313/attendance/1.0/</link>
