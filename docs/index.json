@@ -1,90 +1,90 @@
 [
 {
-	"uri": "https://liangzhongyun.github.io/attendance/1.0/",
+	"uri": "http://lansionbio.github.io/attendance/1.0/",
 	"title": "界面介绍",
 	"tags": ["界面介绍"],
 	"description": "",
 	"content": " 一. 登录界面 二. 主界面  1. 人事  1.1 部门 1.2 人员 1.3 人员离职   2. 设备  2.1 设备管理 2.2 服务器下发命令 2.3 设备操作日志   3. 排班  3.1 时段管理 3.2 班次管理 3.3 人员排班 3.4 节假日 3.5 考勤规则   4. 报表  4.1 考勤记录 4.2 统计报表 4.3 报表   5. 系统 * 6. 常用    一. 登录界面 登录界面包括多语言切换、登录窗口。如图1 所示： 二. 主界面 本系统主要分为5个部分，分别为：人事、设备、排班、报表、系统。如图2 所示： 1. 人事 人事部分只使用以下功能，如图2-1 所示：\n【机构信息】：部门。\n【人员信息】：人员。\n【人事变更】：人员离职。\n1.1 部门 可操作新增、查看、编辑、删除、导出、导入，如图2-1-1 所示： 1.2 人员 可操作导出、导入、新增、删除、对选取数据进行操作、修改验证方式、修改归属地，如图2-1-2 所示： 1.3 人员离职 可以查看已离职人员、新增离职人员和对已离职的人员进行离职恢复等操作，如图2-1-3 所示： 2. 设备 设备只使用以下功能，如图2-2 所示：\n【设备管理】：设备管理。\n【常用功能】：服务器下发命令。\n【日志】：设备操作日志。\n2.1 设备管理 可操作导出、导入、新增、删除、对选取数据进行操作、设置归属。如图2-2-1 所示：\n日常无需使用该部分，系统自动同步。 2.2 服务器下发命令 可查看、导出服务器生成的命令内容，用于系统排错。如图2-2-2 所示： 2.3 设备操作日志 设备操作日志记录的是人员对设备进行的操作记录，例如开机、关机、报警、进入菜单等。如图2-2-3 所示： 3. 排班 排班部分只使用以下功能，如图3-1 所示：\n【班次】：时段管理、班次管理、人员排班。\n【休假设置】：节假日。\n【基本设置】：考勤规则。\n3.1 时段管理 3.2 班次管理 3.3 人员排班 3.4 节假日 3.5 考勤规则 4. 报表 4.1 考勤记录 4.2 统计报表 4.3 报表 5. 系统 * 6. 常用 常用菜单需要在系统设置内定义，才能显示本菜单。\n"
 },
 {
-	"uri": "https://liangzhongyun.github.io/attendance/1.1/",
+	"uri": "http://lansionbio.github.io/attendance/1.1/",
 	"title": "基础考勤",
 	"tags": ["入离职", "人员档案"],
 	"description": "",
 	"content": "h1 Test h2 test h3 test h4 test  新增部门\n首先选择你想要新增的部门所属于哪个部门，然后点击【新增】（默认有一个总部门，无法删除，可以进行修改），\n如图1-3 所示：\n图1-3\n注意：部门联系电话和E-Mail 设置用于防疫模块发短信和邮件通知使用。  "
 },
 {
-	"uri": "https://liangzhongyun.github.io/attendance/1.2/",
+	"uri": "http://lansionbio.github.io/attendance/1.2/",
 	"title": "报表",
 	"tags": ["报表", "原始记录"],
 	"description": "",
 	"content": "h1 Test h2 test h3 test h4 test "
 },
 {
-	"uri": "https://liangzhongyun.github.io/attendance/",
+	"uri": "http://lansionbio.github.io/attendance/",
 	"title": "Chapter 1.",
 	"tags": [],
 	"description": "",
 	"content": "Chapter 1.考勤系统  登陆地址 http://192.168.1.222:8088  业务    基础信息 功能 报表     部门 入职 统计报表   人员信息 离职 每日出勤   设备 排班      流程 graph LR\r入职--\u0026gt;档案\r档案--\u0026gt;指纹录入\r指纹录入--\u0026gt;工号录入\r工号录入--\u0026gt;导出档案\r导出档案--\u0026gt;开通门禁\r\u0026amp;\nsequenceDiagram\rparticipant 人事部\rparticipant 信息部\r人事部-新员工: 指纹录入\r新员工-人事部: Done\r人事部-信息部: 开通门禁\rNote right of 信息部: 您的门禁已开通 有问题随时找我...\r信息部-新员工: Done\r信息部--人事部: Done\rloop Response\r人事部--新员工: 持续优化\rend\r\r 等待完善   接入人事流程数据     ZKTime时间精细化管理平台以时间管理作为专业管理方向，环绕六大维度，结合互联网应用三大核心要素：时间、计算、存储，将生物识别技术融入软硬件，为企业带来高安全、实人化、高效率、智慧规范的全新的组织运营管控体验,三者结合提高平台的企业管理实力,实现企业/单位的精细化运营管理。\n  ZKteco FAQ https://www.zkteco.com/cn/zk_faq.html\n "
 },
 {
-	"uri": "https://liangzhongyun.github.io/oa/",
+	"uri": "http://lansionbio.github.io/oa/",
 	"title": "Chapter 2.",
 	"tags": [],
 	"description": "",
 	"content": "Chapter 2 "
 },
 {
-	"uri": "https://liangzhongyun.github.io/",
+	"uri": "http://lansionbio.github.io/",
 	"title": "Root",
 	"tags": [],
 	"description": "",
 	"content": "This is a FAQ website. "
 },
 {
-	"uri": "https://liangzhongyun.github.io/tags/",
+	"uri": "http://lansionbio.github.io/tags/",
 	"title": "Tags",
 	"tags": [],
 	"description": "",
 	"content": ""
 },
 {
-	"uri": "https://liangzhongyun.github.io/tags/%E7%95%8C%E9%9D%A2%E4%BB%8B%E7%BB%8D/",
+	"uri": "http://lansionbio.github.io/tags/%E7%95%8C%E9%9D%A2%E4%BB%8B%E7%BB%8D/",
 	"title": "界面介绍",
 	"tags": [],
 	"description": "",
 	"content": ""
 },
 {
-	"uri": "https://liangzhongyun.github.io/tags/%E4%BA%BA%E5%91%98%E6%A1%A3%E6%A1%88/",
+	"uri": "http://lansionbio.github.io/tags/%E4%BA%BA%E5%91%98%E6%A1%A3%E6%A1%88/",
 	"title": "人员档案",
 	"tags": [],
 	"description": "",
 	"content": ""
 },
 {
-	"uri": "https://liangzhongyun.github.io/tags/%E5%85%A5%E7%A6%BB%E8%81%8C/",
+	"uri": "http://lansionbio.github.io/tags/%E5%85%A5%E7%A6%BB%E8%81%8C/",
 	"title": "入离职",
 	"tags": [],
 	"description": "",
 	"content": ""
 },
 {
-	"uri": "https://liangzhongyun.github.io/tags/%E5%8E%9F%E5%A7%8B%E8%AE%B0%E5%BD%95/",
+	"uri": "http://lansionbio.github.io/tags/%E5%8E%9F%E5%A7%8B%E8%AE%B0%E5%BD%95/",
 	"title": "原始记录",
 	"tags": [],
 	"description": "",
 	"content": ""
 },
 {
-	"uri": "https://liangzhongyun.github.io/tags/%E6%8A%A5%E8%A1%A8/",
+	"uri": "http://lansionbio.github.io/tags/%E6%8A%A5%E8%A1%A8/",
 	"title": "报表",
 	"tags": [],
 	"description": "",
 	"content": ""
 },
 {
-	"uri": "https://liangzhongyun.github.io/categories/",
+	"uri": "http://lansionbio.github.io/categories/",
 	"title": "Categories",
 	"tags": [],
 	"description": "",

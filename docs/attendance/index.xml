@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Chapter 1. on FAQ Site</title>
-    <link>https://liangzhongyun.github.io/attendance/</link>
-    <description>Recent content in Chapter 1. on FAQ Site</description>
+    <title>Chapter 1. on Lansion FAQ Site</title>
+    <link>http://lansionbio.github.io/attendance/</link>
+    <description>Recent content in Chapter 1. on Lansion FAQ Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 17 Nov 2020 15:24:30 +0800</lastBuildDate><atom:link href="https://liangzhongyun.github.io/attendance/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 17 Nov 2020 15:24:30 +0800</lastBuildDate><atom:link href="http://lansionbio.github.io/attendance/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>界面介绍</title>
-      <link>https://liangzhongyun.github.io/attendance/1.0/</link>
+      <link>http://lansionbio.github.io/attendance/1.0/</link>
       <pubDate>Mon, 30 Nov 2020 11:00:00 +0800</pubDate>
       
-      <guid>https://liangzhongyun.github.io/attendance/1.0/</guid>
+      <guid>http://lansionbio.github.io/attendance/1.0/</guid>
       <description>一. 登录界面 二. 主界面  1. 人事  1.1 部门 1.2 人员 1.3 人员离职   2. 设备  2.1 设备管理 2.2 服务器下发命令 2.3 设备操作日志   3. 排班  3.1 时段管理 3.2 班次管理 3.3 人员排班 3.4 节假日 3.5 考勤规则   4. 报表  4.1 考勤记录 4.2 统计报表 4.3 报表   5. 系统 * 6. 常用    一. 登录界面 登录界面包括多语言切换、登录窗口。如图1 所示： 二. 主界面 本系统主要分为5个部分，分别为：人事、设备、排班、报表、系统。如图2 所示： 1.</description>
     </item>
     
     <item>
       <title>基础考勤</title>
-      <link>https://liangzhongyun.github.io/attendance/1.1/</link>
+      <link>http://lansionbio.github.io/attendance/1.1/</link>
       <pubDate>Tue, 17 Nov 2020 16:20:40 +0800</pubDate>
       
-      <guid>https://liangzhongyun.github.io/attendance/1.1/</guid>
+      <guid>http://lansionbio.github.io/attendance/1.1/</guid>
       <description>h1 Test h2 test h3 test h4 test  新增部门
 首先选择你想要新增的部门所属于哪个部门，然后点击【新增】（默认有一个总部门，无法删除，可以进行修改），
 如图1-3 所示：
@@ -31,10 +31,10 @@
     
     <item>
       <title>报表</title>
-      <link>https://liangzhongyun.github.io/attendance/1.2/</link>
+      <link>http://lansionbio.github.io/attendance/1.2/</link>
       <pubDate>Tue, 17 Nov 2020 16:20:40 +0800</pubDate>
       
-      <guid>https://liangzhongyun.github.io/attendance/1.2/</guid>
+      <guid>http://lansionbio.github.io/attendance/1.2/</guid>
       <description>h1 Test h2 test h3 test h4 test </description>
     </item>
     
